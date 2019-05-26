@@ -6,6 +6,6 @@ Slug: ensuring-you-have-pip-for-python-3-on-freebsd
 
 By default pip doesn't get installed with the python35 port. To fix this as root execute the following:  
 
-`python3 -m ensurepip`
-
-</p>
+````
+python3 -m ensurepip
+````
