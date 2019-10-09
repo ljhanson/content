@@ -2,7 +2,7 @@ Title: Kubernetes Notes
 Date: 9/13/2019 10:16 PM
 Author: L.J. Hanson
 Tags: docker, kubernetes, linux, 
-Slug: 
+Slug: Your Kubernetes control-plane has initialized successfully!
 Your Kubernetes control-plane has initialized successfully!
 ```bash
 * Kubeadm init to start the cluster off.
@@ -30,3 +30,41 @@ Other notes:
 * Selinux must be off and disabled
 * Ports:
 ![Network Ports](https://i.stack.imgur.com/GY4ae.png)
+
+
+What is a pod?
+* Defines one or more containers
+  * How they run
+  * Resources needed
+* Kubernetes manages pods, NOT containers
+* Most applications use one application per pod
+* Containers in same pod talk via localhost 
+
+Multi container pods
+* Containers in same pod scaled identically, can be an issue for apps like database.
+* Only group tightly coupled services into a pod.
+* initContainers may contain software, passwords or secrets only used for startup
+  * May allow you to use other images without changes
+  * Example: Static site generator feeding output to volume which is then mounted at document root for web server.
+  * Delay start of rest of service until they are complete.
+  
+Networking:
+* NetworkPolicy defines external access to pods within the cube
+  * CIDR Blocks
+  * App labels
+  * Ports
+* Blank policies block everything
+* Policy of {} allows all
+* ![Network Docs](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+
+Controllers:
+* Abstraction layer on top of pods
+* They create and manage pods
+| Types | Role |
+|:...:|:...:|
+|Deployment|Manage long running pods|
+|StatefulSet| Deployment with order and uniqueness|
+|DaemonSet|Run a replica on every node|
+|Job|Run a one-off job to completion|
+|CronJob|Run job according to schedule|
+

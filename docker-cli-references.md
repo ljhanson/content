@@ -51,4 +51,8 @@ HEALTHCHECK command
     * Tells Docker how to check status of container
     * HEALTHCHECK --interval=30s CMD curl -f http://localhost/status || exit 1
     
+Compose File Syntax
+    * Image
+    * Build
+    * Image and Build
     
