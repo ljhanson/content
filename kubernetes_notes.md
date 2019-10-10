@@ -68,3 +68,21 @@ Controllers:
 |Job|Run a one-off job to completion|
 |CronJob|Run job according to schedule|
 
+Services:
+| Type | Purpose |
+|:...:|:...:|
+| ClusterIP | Assigned an IP in cluster, but not externally available |
+| NodePort | Published port on every node in cluster |
+| LoadBalancer | Used with Cloud providers to create an external load balancer|
+| ExternalName | Provides a DNS alias to an external host name |
+
+Secrets & ConfgMaps:
+* Secrets base64 encoded in config, viewable as plain text in pod
+* Use RBAC to protect
+* ConfgMaps primarily for config data
+
+Volumes:
+* Typically creed to be created before use
+* RO or RW
+* Plain Volumes are deleted with pod, underlying storage may remain
+* ![Volume Docs](https://kubernetes.io/docs/concepts/storage/volumes/)
