@@ -1,8 +1,13 @@
 Title: Kubernetes Notes
+
 Date: 9/13/2019 10:16 PM
+
 Author: L.J. Hanson
+
 Tags: docker, kubernetes, linux, 
+
 Slug: Your Kubernetes control-plane has initialized successfully!
+
 Your Kubernetes control-plane has initialized successfully!
 ```bash
 * Kubeadm init to start the cluster off.
@@ -49,19 +54,22 @@ Multi container pods
   * Delay start of rest of service until they are complete.
   
 Networking:
+
 * NetworkPolicy defines external access to pods within the cube
   * CIDR Blocks
   * App labels
   * Ports
 * Blank policies block everything
 * Policy of {} allows all
-* ![Network Docs](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+* [Network Docs](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 
 Controllers:
+
 * Abstraction layer on top of pods
 * They create and manage pods
-| Types | Role |
-|:...:|:...:|
+
+|Types|Role|
+|:---|:---|
 |Deployment|Manage long running pods|
 |StatefulSet| Deployment with order and uniqueness|
 |DaemonSet|Run a replica on every node|
@@ -69,9 +77,10 @@ Controllers:
 |CronJob|Run job according to schedule|
 
 Services:
+
 | Type | Purpose |
-|:...:|:...:|
-| ClusterIP | Assigned an IP in cluster, but not externally available |
+|:---|:---|
+|ClusterIP | Assigned an IP in cluster, but not externally available |
 | NodePort | Published port on every node in cluster |
 | LoadBalancer | Used with Cloud providers to create an external load balancer|
 | ExternalName | Provides a DNS alias to an external host name |
@@ -85,4 +94,4 @@ Volumes:
 * Typically creed to be created before use
 * RO or RW
 * Plain Volumes are deleted with pod, underlying storage may remain
-* ![Volume Docs](https://kubernetes.io/docs/concepts/storage/volumes/)
+* [Volume Docs](https://kubernetes.io/docs/concepts/storage/volumes/)
