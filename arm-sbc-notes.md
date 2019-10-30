@@ -31,4 +31,5 @@ Usage: arm-image-installer <options>
 Example: arm-image-installer --image=Fedora-Rawhide.xz --target=Bananapi --media=/dev/mmcblk0
 ```
 More help for Fedora is located at https://fedoraproject.org/wiki/Architectures/ARM/Installation.
+
 Other OS, like FreeBSD or OpenBSD can be directly wrote to the minisd card assuming you pick the image for the specific SBC.

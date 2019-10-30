@@ -4,6 +4,5 @@ Author: L.J. Hanson
 Tags: Python, Jupyter Notebook, nginx
 Slug: regular-expression-tester
 
-A web based regular expression tester. <https://regex101.com/>
+A web based regular expression tester: [Regex101](https://regex101.com/)
 
-</p>

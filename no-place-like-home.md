@@ -5,4 +5,3 @@ Slug: no-place-like-home
 
 This is my site until I get bored and stop updating it.
 
-</p>

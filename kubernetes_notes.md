@@ -1,11 +1,7 @@
 Title: Kubernetes Notes
-
 Date: 9/13/2019 10:16 PM
-
 Author: L.J. Hanson
-
 Tags: docker, kubernetes, linux, 
-
 Slug: Your Kubernetes control-plane has initialized successfully!
 
 Your Kubernetes control-plane has initialized successfully!
