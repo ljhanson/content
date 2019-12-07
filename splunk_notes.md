@@ -1,3 +1,6 @@
+Title: Splunk Notes
+Slug: splunk-notes
+Date: 2019-11-8 16:29:49
 # Splunk Components
   * Indexer - Process, stores and creates events.  Does this via time stamped directories.
   * Search Head - Front End, consolidate and enrich results
