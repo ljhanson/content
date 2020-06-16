@@ -5,6 +5,7 @@ Tags: Python, nginx, Jupyter Notebook
 Slug: jupyter-notebooks-in-a-subdir-with-nginx
 
 Nginx section for subdir:
+
 ```nginx
 location ^~ /<subdir>/ {
             proxy_set_header X-Real-IP $remote_addr;
@@ -19,8 +20,8 @@ location ^~ /<subdir>/ {
         }
 ```
 
-
 Configuration changes for Jupyter:
+
 ```python
 c.NotebookApp.base_url = '/<subdir>/'
 c.NotebookApp.open_browser = False

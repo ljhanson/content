@@ -13,7 +13,6 @@ Slug: docker-reference
 | inspect | Detail output about running container in JSON |
 | history | Shows history of container image|
 
-
 Dockerfile Commands
 
 | Command | Reference |
@@ -30,31 +29,33 @@ Dockerfile Commands
 | ARG | Variables that can be passes into the build command.  Don't use for sensitive info. |
 | LABEL | Key-Value parr's exposed as image metadata |
 
-
 Dockerfile Best Practices
+
 * Keep image small
 * As few layers as possible
 * Avoid breaking cache
 * Avoid known vulnerabilities
 
 Keeping Image Small
+
 * Use small or slim base image
 * Combine layers
 * Use .dockerignore
 * Use multistage build
-    * Best for compiled code or have lot of intermediate steps
-    * Keep final stage as small as possible
-    * All other stages are discarded
- * Change user to non-root user
-    * Better security
-    * Adds additional layer
-    
+  * Best for compiled code or have lot of intermediate steps
+  * Keep final stage as small as possible
+  * All other stages are discarded
+* Change user to non-root user
+  * Better security
+  * Adds additional layer
+
 HEALTHCHECK command
-  * Tells Docker how to check status of container
-  * HEALTHCHECK --interval=30s CMD curl -f http://localhost/status || exit 1
-    
+
+* Tells Docker how to check status of container
+* HEALTHCHECK --interval=30s CMD curl -f <http://localhost/status> || exit 1
+
 Compose File Syntax
-  * Image
-  * Build
-  * Image and Build
-    
+
+* Image
+* Build
+* Image and Build

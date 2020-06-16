@@ -5,11 +5,13 @@ Tags: docker, kubernetes, linux,
 Slug: Your Kubernetes control-plane has initialized successfully!
 
 Your Kubernetes control-plane has initialized successfully!
+
 ```bash
 * Kubeadm init to start the cluster off.
 ```
 
 Success:
+
 ```bash
 To start using your cluster, you need to run the following as a regular user:
 
@@ -25,23 +27,27 @@ Then you can join any number of worker nodes by running the following on each as
 
 kubeadm join 192.168.1.160:6443 --token bt5jqu.92na40x473dukgdb \
     --discovery-token-ca-cert-hash sha256:2c2962c2f31519a5946064a1bbc0671367d4dd9630715ecfb2c71dfd1d4eed28
+
 ```
+
 Other notes:
+
 * Swap must be turned off (Caught in kubeadm preflight)
 * Selinux must be off and disabled
 * Ports:
 ![Network Ports](https://i.stack.imgur.com/GY4ae.png)
 
-
 What is a pod?
+
 * Defines one or more containers
   * How they run
   * Resources needed
 * Kubernetes manages pods, NOT containers
 * Most applications use one application per pod
-* Containers in same pod talk via localhost 
+* Containers in same pod talk via localhost
 
 Multi container pods
+
 * Containers in same pod scaled identically, can be an issue for apps like database.
 * Only group tightly coupled services into a pod.
 * initContainers may contain software, passwords or secrets only used for startup
@@ -82,11 +88,13 @@ Services:
 | ExternalName | Provides a DNS alias to an external host name |
 
 Secrets & ConfgMaps:
+
 * Secrets base64 encoded in config, viewable as plain text in pod
 * Use RBAC to protect
 * ConfgMaps primarily for config data
 
 Volumes:
+
 * Typically creed to be created before use
 * RO or RW
 * Plain Volumes are deleted with pod, underlying storage may remain
