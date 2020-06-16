@@ -5,6 +5,7 @@ Tags: Idrac
 Slug: Idrac Notes
 
 How to restart/power off from idrac terminal
+
 ```bash
 # power server off
 racadm serveraction powerdown
