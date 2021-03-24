@@ -1,5 +1,5 @@
 Title: ARM SBC Notes
-Date: 9/13/2019 7:50 PM
+Date: 2019-9-13 19:50
 Author: L.J. Hanson
 Tags: arm,sbc,notes,Fedora,docker
 Slug: arm-sbc-notes

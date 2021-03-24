@@ -1,5 +1,5 @@
 Title: Cert Manager for Kubernetes
-Date: 1/21/2021 10:-0 PM
+Date: 1/21/2021 10:00 PM
 Author: L.J. Hanson
 Tags: kubernetes, ssl, docker
 Slug: Cert-Manager
