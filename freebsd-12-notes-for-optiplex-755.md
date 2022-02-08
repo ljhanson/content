@@ -8,7 +8,7 @@ Things to remember for next FreeBSD 12  install.
 - To switch to current, as opposed to quarterly packages, create the file /usr/local/etc/pkg/repos/FreeBSD.conf with the folowing content:
 
 ```shell
-FreeBSD: {  url: "pkg+http://pkg.FreeBSD.org/${ABI}/latest"  }  
+FreeBSD: {  url: "pkg+http://pkg.FreeBSD.org/${ABI}/latest"  }
 ```
 
 - drm-kmod package from ports gets KMS to work.

@@ -10,5 +10,3 @@ Overall installtion instructions are [here](https://cert-manager.io/docs/install
 ClusterIssuer.yaml file sets up the connection to the CA (Let's Encrypt) in order to generate certs.
     - Requires an IAM policy for Route53 and DNS challenges
     - yaml file must be updated with approriate values (at a minimum role, possibly accessKey and secret)
-
-

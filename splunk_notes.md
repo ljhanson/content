@@ -9,20 +9,20 @@ Date: 2019-11-8 16:29:49
   * Deployment Server
   * Cluster Master
   * License Master
-    
- 
+
+
 # Roles
 * Admin
 	* Can install apps, and create knowledge objects
 * Power
 	* Can create and share knowledge objects for app users and do realtime searches.
 * User
-	- Will only see own knowledge objects and those shared with them. 
+	- Will only see own knowledge objects and those shared with them.
 
 # Links
-[Splunkbase](https://splunkbase.splunk.com) - App store for Splunk  
-[Splunk Howto's](https://www.splunk.com/en_us/resources/videos.html#How-To)  
-[Splunk Documentation](https://docs.splunk.com)  
+[Splunkbase](https://splunkbase.splunk.com) - App store for Splunk
+[Splunk Howto's](https://www.splunk.com/en_us/resources/videos.html#How-To)
+[Splunk Documentation](https://docs.splunk.com)
 
 # Splunk Index Time Process
 
@@ -63,7 +63,7 @@ Date: 2019-11-8 16:29:49
 - “*” (Finish string), AND, OR, NOT all work
 - Parentheses are for order of operations
 - Quotes for exact phrases
-- “\” to escape characters 
+- “\” to escape characters
 - Before first “|” looks for matching terms, after pipe looks for commands
 - Results displayed revers chronologically
 - Time Ranges
@@ -85,7 +85,7 @@ Date: 2019-11-8 16:29:49
 
 # Fields
 - Fields are Key/Value pairs
-- Interesting fields are fields that are present in 20% or more of the events yout search returned. 
+- Interesting fields are fields that are present in 20% or more of the events yout search returned.
 - ‘*a*’ signifies string fileds
 - ‘#’ denotes number fields
 - Filed names are case sensitive, values are not
@@ -179,4 +179,4 @@ Date: 2019-11-8 16:29:49
 	- Use window for flexible start
 - Managed via settings
 - Embedded reports are viewable by ##ANYONE## who can access the webpage.
-- Alerts are continuously running searches 
+- Alerts are continuously running searches

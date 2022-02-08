@@ -7,7 +7,7 @@ Author: L.J. Hanson
 Summary: Useful helper functions for venv
 
 Working with python, I've always utilized virtualenvwrapper for creating and managing python setups for developing.
-Now that more and more python work is moving over to Python 3, I wanted to start using more of the functionality it brings natively. 
+Now that more and more python work is moving over to Python 3, I wanted to start using more of the functionality it brings natively.
 One of these is [Venv](https://docs.python.org/3/tutorial/venv.html) which is the native virtual environment system.
 
 One thing missing from the builtin system is some nice helper functions for use on the command line.  The following were copied from various[^1] sources[^2] but are posted below for reference as they should allow for the most common use cases.

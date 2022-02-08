@@ -1,7 +1,7 @@
 Title: Kubernetes Notes
 Date: 9/13/2019 10:16 PM
 Author: L.J. Hanson
-Tags: docker, kubernetes, linux, 
+Tags: docker, kubernetes, linux,
 Slug: Your Kubernetes control-plane has initialized successfully!
 
 Your Kubernetes control-plane has initialized successfully!
@@ -54,7 +54,7 @@ Multi container pods
   * May allow you to use other images without changes
   * Example: Static site generator feeding output to volume which is then mounted at document root for web server.
   * Delay start of rest of service until they are complete.
-  
+
 Networking:
 
 * NetworkPolicy defines external access to pods within the cube
