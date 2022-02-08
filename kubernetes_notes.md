@@ -32,43 +32,43 @@ kubeadm join 192.168.1.160:6443 --token bt5jqu.92na40x473dukgdb \
 
 Other notes:
 
-* Swap must be turned off (Caught in kubeadm preflight)
-* Selinux must be off and disabled
-* Ports:
-![Network Ports](https://i.stack.imgur.com/GY4ae.png)
+- Swap must be turned off (Caught in kubeadm preflight)
+- Selinux must be off and disabled
+- Ports:
+  ![Network Ports](https://i.stack.imgur.com/GY4ae.png)
 
 What is a pod?
 
-* Defines one or more containers
-  * How they run
-  * Resources needed
-* Kubernetes manages pods, NOT containers
-* Most applications use one application per pod
-* Containers in same pod talk via localhost
+- Defines one or more containers
+  - How they run
+  - Resources needed
+- Kubernetes manages pods, NOT containers
+- Most applications use one application per pod
+- Containers in same pod talk via localhost
 
 Multi container pods
 
-* Containers in same pod scaled identically, can be an issue for apps like database.
-* Only group tightly coupled services into a pod.
-* initContainers may contain software, passwords or secrets only used for startup
-  * May allow you to use other images without changes
-  * Example: Static site generator feeding output to volume which is then mounted at document root for web server.
-  * Delay start of rest of service until they are complete.
+- Containers in same pod scaled identically, can be an issue for apps like database.
+- Only group tightly coupled services into a pod.
+- initContainers may contain software, passwords or secrets only used for startup
+  - May allow you to use other images without changes
+  - Example: Static site generator feeding output to volume which is then mounted at document root for web server.
+  - Delay start of rest of service until they are complete.
 
 Networking:
 
-* NetworkPolicy defines external access to pods within the cube
-  * CIDR Blocks
-  * App labels
-  * Ports
-* Blank policies block everything
-* Policy of {} allows all
-* [Network Docs](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+- NetworkPolicy defines external access to pods within the cube
+  - CIDR Blocks
+  - App labels
+  - Ports
+- Blank policies block everything
+- Policy of {} allows all
+- [Network Docs](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 
 Controllers:
 
-* Abstraction layer on top of pods
-* They create and manage pods
+- Abstraction layer on top of pods
+- They create and manage pods
 
 |Types|Role|
 |:---|:---|
@@ -89,13 +89,13 @@ Services:
 
 Secrets & ConfgMaps:
 
-* Secrets base64 encoded in config, viewable as plain text in pod
-* Use RBAC to protect
-* ConfgMaps primarily for config data
+- Secrets base64 encoded in config, viewable as plain text in pod
+- Use RBAC to protect
+- ConfgMaps primarily for config data
 
 Volumes:
 
-* Typically creed to be created before use
-* RO or RW
-* Plain Volumes are deleted with pod, underlying storage may remain
-* [Volume Docs](https://kubernetes.io/docs/concepts/storage/volumes/)
+- Typically creed to be created before use
+- RO or RW
+- Plain Volumes are deleted with pod, underlying storage may remain
+- [Volume Docs](https://kubernetes.io/docs/concepts/storage/volumes/)

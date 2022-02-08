@@ -12,7 +12,7 @@ One of these is [Venv](https://docs.python.org/3/tutorial/venv.html) which is th
 
 One thing missing from the builtin system is some nice helper functions for use on the command line.  The following were copied from various[^1] sources[^2] but are posted below for reference as they should allow for the most common use cases.
 
-~~~bash
+```bash
 # Python venv support functions
 export VENV_HOME="$HOME/.venv"
 [[ -d $VENV_HOME ]] || mkdir $VENV_HOME
@@ -32,7 +32,7 @@ rmvenv() {
 lsvenv(){
     ls $VENV_HOME
 }
-~~~
+```
 
 [^1]: https://gist.github.com/dbtek/fb2ddccb18f0cf63a654ea2cc94c8f19
 [^2]: https://stackoverflow.com/questions/45826517/python-venv-and-virtualenvwrapper-combined

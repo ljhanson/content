@@ -10,8 +10,8 @@ I run a server at home, primarily for file shares but backups as well.  One thin
 
 To install gitea on my FreeBSD server I took the following steps:
 
-* Create a new jail
-* Install gitea and enable it:
+- Create a new jail
+- Install gitea and enable it:
 
 ```bash
 root@git:~ #pkg install gitea bash
@@ -20,7 +20,7 @@ root@git:~ #sysrc gitea_enable=YES
 
 Bash was needed as it wasn't a requirement of gitea but was needed later during the install, this may be fixed when you do this next time.
 
-* Configure gitea
+- Configure gitea
 
 You can either do this by editing the app.ini directly or deleting the app.ini file and temporarily opening up permissions for gitea to create/edit the file itself. If you chose to have the app do by itself, start the app up as follows:
 

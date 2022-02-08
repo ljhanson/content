@@ -17,11 +17,15 @@ curl -L https://install.pivpn.io | bash
 sudo ufw allow ssh
 sudo ufw allow http
 sudo ufw allow https
+
 # Next two needed to keep DNS/DHCP on internal network only if using ipv6
+
 tunnel
 sudo ufw allow in on eth0 to any port 67
 sudo ufw allow in on eth0 to any port 53
+
 # Default policy
+
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw enable
