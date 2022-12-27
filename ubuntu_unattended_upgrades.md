@@ -1,10 +1,14 @@
-Title: Ubuntu unattended upgrades
-Date: 2021-01-21
-Category: Linux
-Tags: ubuntu, linux
-Slug: ubuntu-unattended-upgradws
-Author: L.J. Hanson
-Summary: Unattended upgrades for Ubuntu
+---
+title: Ubuntu unattended upgrades
+date: 2021-01-21
+category: Linux
+tags:
+- ubuntu
+- linux
+slug: ubuntu-unattended-upgradws
+author: L.J. Hanson
+summary: Unattended upgrades for Ubuntu
+---
 
 How to setup a Ubuntu install to do unattended upgrades.
 Based off content available [here](https://libre-software.net/ubuntu-automatic-updates/)

@@ -1,6 +1,8 @@
-Title: Docker Commands Reference
-Date: 2019-10-08 20:46:39
-Slug: docker-reference
+---
+title: Docker Commands Reference
+date: 2019-10-08
+slug: docker-reference
+---
 
 | Command | Description |
 | :----: | :----: |

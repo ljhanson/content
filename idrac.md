@@ -1,8 +1,11 @@
+---
 Title: Idrac Notes
-Date: 9/12/2019 7:20 PM
+Date: 2019-09-12
 Author: L.J. Hanson
-Tags: Idrac
+Tags:
+- Idrac
 Slug: Idrac Notes
+---
 
 How to restart/power off from idrac terminal
 

@@ -1,6 +1,8 @@
-Title: Splunk Notes
-Slug: splunk-notes
-Date: 2019-11-8 16:29:49
+---
+title: Splunk Notes
+slug: splunk-notes
+date: 2019-11-8
+---
 
 # Splunk Components
 

@@ -1,9 +1,13 @@
-Title: Jupyter Notebooks in a subdir with nginx.
-Date: 2016-12-13 03:00
-Author: L.J. Hanson
-Tags: Python, nginx, Jupyter Notebook
-Slug: jupyter-notebooks-in-a-subdir-with-nginx
-
+---
+title: Jupyter Notebooks in a subdir with nginx.
+date: 2016-12-13
+author: L.J. Hanson
+tags:
+- Python
+- nginx
+- Jupyter
+slug: jupyter-notebooks-in-a-subdir-with-nginx
+---
 Nginx section for subdir:
 
 ```nginx

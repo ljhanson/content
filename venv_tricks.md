@@ -1,10 +1,15 @@
-Title: Bash helper functions for venv
-Date: 2019-05-25
-Category: Python
-Tags: Python, bash, venv
-Slug: bash-venv-functions
-Author: L.J. Hanson
-Summary: Useful helper functions for venv
+---
+title: Bash helper functions for venv
+date: 2019-05-25
+category: Python
+tags:
+- Python
+- bash
+- venv
+slug: bash-venv-functions
+author: L.J. Hanson
+summary: Useful helper functions for venv
+---
 
 Working with python, I've always utilized virtualenvwrapper for creating and managing python setups for developing.
 Now that more and more python work is moving over to Python 3, I wanted to start using more of the functionality it brings natively.

@@ -1,7 +1,9 @@
-Title: Notes from AWS Security Maturity Roadmap by Scott Piper (summitroute.com)
-Date: 2019-11-02 10:00
-Author: L.J. Hanson
-Slug: aws-security-notes
+---
+title: Notes from AWS Security Maturity Roadmap by Scott Piper (summitroute.com)
+date: "2019-11-02"
+author: L.J. Hanson
+slug: aws-security-notes
+---
 
 TODO: Subscribe to recommended keeping up to dates
 TODO: Buy/Read Securing DevOPS: Security in the Cloud

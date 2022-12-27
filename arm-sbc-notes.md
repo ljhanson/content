@@ -1,8 +1,15 @@
-Title: ARM SBC Notes
-Date: 2019-9-13 19:50
-Author: L.J. Hanson
-Tags: arm,sbc,notes,Fedora,docker
-Slug: arm-sbc-notes
+---
+title: ARM SBC Notes
+date: "2019-09-13"
+author: L.J. Hanson
+tags:
+- arm
+- sbc
+- notes
+- Fedora
+- docker
+slug: arm-sbc-notes
+---
 
 ```bash
 # Serial Console

@@ -1,8 +1,9 @@
-Title: Nikola Setup Notes
-Date: 2021-03-23 22:47
-Author: L.J. Hanson
-Slug: nikola-setup-notes
-
+---
+title: Nikola Setup Notes
+date: 2021-03-23
+author: L.J. Hanson
+slug: nikola-setup-notes
+---
 To get Pelican style metadata working in Nikola you must add the markdown
 metadata extension to your config.
 

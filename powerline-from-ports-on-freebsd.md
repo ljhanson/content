@@ -1,8 +1,14 @@
-Title: Powerline from ports on FreeBSD
-Date: 2017-02-02 01:59
-Author: L.J. Hanson
-Tags: Python, FreeBSD, tmux, bash
-Slug: powerline-from-ports-on-freebsd
+---
+title: Powerline from ports on FreeBSD
+date: 2017-02-02
+author: L.J. Hanson
+tags:
+- Python
+- FreeBSD
+- tmux
+- bash
+slug: powerline-from-ports-on-freebsd
+---
 
 In your .profile add the following:
 

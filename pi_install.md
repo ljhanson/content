@@ -1,8 +1,15 @@
-Title: Pi Install Notes
-Date: 12/7/2020 8:00 PM
-Author: L.J. Hanson
-Tags: pi, install, vpn, pihole
-Slug: Pi_Install_Notes
+---
+title: Pi Install Notes
+date: 2020-12-07
+author: L.J. Hanson
+tags:
+- pi
+- install
+- vpn
+- pihole
+slug: Pi_Install_ Notes
+---
+
 #Inital Install
 sudo apt update
 sudo apt upgrade

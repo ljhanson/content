@@ -1,10 +1,15 @@
+---
 Title: Gitea in a FreeBSD jail
-Date: 2019-05-27
-Category: Git
-Tags: git, FreeBSD, jails
-Slug: gitea-in-a-jail
-Authors: L.J. Hanson
-Summary: Gitea in a jail
+date: 2019-05-27
+category: Git
+tags:
+- git
+- FreeBSD
+- jails
+slug: gitea-in-a-jail
+authors: L.J. Hanson
+summary: Gitea in a jail
+---
 
 I run a server at home, primarily for file shares but backups as well.  One thing that I felt might be easier is running git on the server to better integrate into my workflow as well as working better than git on a shared drive.
 
