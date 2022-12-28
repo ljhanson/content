@@ -2,7 +2,7 @@
 title: Kubernetes Notes
 date: 2019-09-13
 author: L.J. Hanson
-tags: 
+tags:
 - docker
 - kubernetes
 - linux

@@ -1,6 +1,6 @@
 ---
 title: Regular Expression Tester
-date: 2017-01-05 
+date: 2017-01-05
 author: L.J. Hanson
 tags:
 - Python
