@@ -23,10 +23,15 @@ draft: true
     - K3S_URL is "https://<server host>:6443"
 
 ## Setting up upgrades
+Install upgrade server
+
+```sh
+kubectl apply -f https://github.com/rancher/system-upgrade-controller/releases/latest/download/system-upgrade-controller.yaml
+```
 
 Need to label each node with "k3s-upgrade=true"
 
 ```sh
 kubectl label nodes <your-node-name> <label>
 ```
-Once completed need to add an upgrade [plan](https://raw.githubusercontent.com/rancher/system-upgrade-controller/master/examples/k3s-upgrade.yaml).
+Once completed need to add an upgrade [plan](https://raw.githubusercontent.com/rancher/system-upgrade-controller/master/examples/k3s-upgrade.yaml). Edit to suit, and apply.
