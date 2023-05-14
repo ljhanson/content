@@ -20,7 +20,9 @@ draft: true
         '--kube-controller-manager-arg "bind-address=0.0.0.0"' \
         '--kube-proxy-arg "metrics-bind-address=0.0.0.0"' \
         '--kube-scheduler-arg "bind-address=0.0.0.0"' \
-        '--write-kubeconfig-mode 644'
+        '--write-kubeconfig-mode 644' \
+        '--node-label "k3s-upgrade=true"' \
+        '--snapshotter=stargz'
 
 - For worker nodes need:
     - K3S_TOKEN is at /var/lib/rancher/k3s/server/node-token on server
