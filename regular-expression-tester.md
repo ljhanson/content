@@ -4,7 +4,7 @@ date: 2017-01-05
 author: L.J. Hanson
 tags:
 - Python
-- jupyter
+- Jupyter
 - nginx
 slug: regular-expression-tester
 ---

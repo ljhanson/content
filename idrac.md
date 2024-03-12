@@ -1,10 +1,10 @@
 ---
-Title: Idrac Notes
-Date: "2019-09-12"
-Author: L.J. Hanson
-Tags:
+title: Idrac Notes
+date: "2019-09-12"
+author: L.J. Hanson
+tags:
 - Idrac
-Slug: Idrac Notes
+slug: Idrac Notes
 ---
 
 How to restart/power off from idrac terminal
