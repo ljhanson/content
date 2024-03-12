@@ -1,6 +1,6 @@
 ---
 Title: Idrac Notes
-Date: 2019-09-12
+Date: "2019-09-12"
 Author: L.J. Hanson
 Tags:
 - Idrac
