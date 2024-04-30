@@ -6,6 +6,19 @@ draft: true
 
 #K3 Install Notes
 
+## Pre-Setup
+
+For 8Gb host use external mounts
+
+```sh
+ln -s /datadrive/k3s/ /run/k3s
+
+ln -s /datadrive/k3s-pods/ /var/lib/kubelet/pods
+
+ln -s /datadrive/k3s-rancher/ /var/lib/rancher
+
+## Install
+
 - Need 3 nodes for HA
 - Disable unneeded components as we are using kubesail for ingress
 ```sh
