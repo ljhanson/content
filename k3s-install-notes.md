@@ -19,8 +19,6 @@ ln -s /datadrive/k3s-rancher/ /var/lib/rancher
 
 ## Install
 
-- Need 3 nodes for HA
-- Disable unneeded components as we are using kubesail for ingress
 ```sh
         '--disable' \
         'traefik' \
@@ -30,12 +28,9 @@ ln -s /datadrive/k3s-rancher/ /var/lib/rancher
         'metrics-server' \
         '--disable' \
         'local-storage' \
-        '--kube-controller-manager-arg "bind-address=0.0.0.0"' \
-        '--kube-proxy-arg "metrics-bind-address=0.0.0.0"' \
-        '--kube-scheduler-arg "bind-address=0.0.0.0"' \
         '--write-kubeconfig-mode 644' \
         '--node-label "k3s-upgrade=true"' \
-        '--snapshotter=stargz'
+        '--flannel-backend=wireguard-native'
 
 - For worker nodes need:
     - K3S_TOKEN is at /var/lib/rancher/k3s/server/node-token on server
