@@ -1,7 +1,23 @@
 ---
-title: "K3s Install Notes"
+title: K3s Install Notes
 date: 2023-01-07T11:34:03-05:00
-draft: true
+draft: false
+tags:
+    - docker
+    - install
+    - kubernetes
+    - linux
+    - notes
+categories:
+    - cloud infrastructure
+    - container orchestration
+    - DevOps
+    - K3s
+    - Kubernetes
+    - Linux administration
+    - server setup
+    - system upgrades
+author: L.J. Hanson
 ---
 
 #K3 Install Notes
