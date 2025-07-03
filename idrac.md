@@ -1,10 +1,21 @@
 ---
 title: Idrac Notes
-date: "2019-09-12"
+date: 2019-09-12
 author: L.J. Hanson
 tags:
-- Idrac
+    - bash
+    - Idrac
+    - linux
+    - notes
+    - server management
 slug: Idrac Notes
+categories:
+    - Dell servers
+    - iDRAC
+    - IT infrastructure
+    - power management
+    - remote access
+    - server management
 ---
 
 How to restart/power off from idrac terminal
