@@ -3,11 +3,11 @@ title: Snippets in VSCode
 date: 2022-12-28
 author: L.J. Hanson
 tags:
-- vscode
-- blog
+    - vscode
+    - blog
 slug: snippets-in-vscode
-description: "Using Snippets in VSCode"
-draft: true
+description: Using Snippets in VSCode
+draft: false
 ---
 
 You can create snippets to add content to files in VSCode to put in boilerplate.  In this example I'm using a snippet to create the frontmatter for a blogpost.
