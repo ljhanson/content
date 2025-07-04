@@ -3,26 +3,35 @@ title: Kubernetes Notes
 date: 2019-09-13
 author: L.J. Hanson
 tags:
+
 - docker
 - kubernetes
 - linux
+
 slug: Your Kubernetes control-plane has initialized successfully!
+draft: false
+
 ---
 
 Your Kubernetes control-plane has initialized successfully!
 
 ```bash
+
 * Kubeadm init to start the cluster off.
+
 ```
 
 Success:
 
 ```bash
-To start using your cluster, you need to run the following as a regular user:
+
+#To start using your cluster, you need to run the following as a regular user:
 
   mkdir -p $HOME/.kube
   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+```
 
 You should now deploy a pod network to the cluster.
 Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
@@ -30,6 +39,7 @@ Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
 
 Then you can join any number of worker nodes by running the following on each as root:
 
+```sh
 kubeadm join 192.168.1.160:6443 --token bt5jqu.92na40x473dukgdb \
     --discovery-token-ca-cert-hash sha256:2c2962c2f31519a5946064a1bbc0671367d4dd9630715ecfb2c71dfd1d4eed28
 

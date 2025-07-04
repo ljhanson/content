@@ -3,20 +3,25 @@ title: Idrac Notes
 date: 2019-09-12
 author: L.J. Hanson
 tags:
-    - bash
-    - Idrac
-    - linux
-    - notes
-    - server management
+
+- bash
+- Idrac
+- linux
+- notes
+- server management
+
 slug: Idrac Notes
 categories:
-    - Dell servers
-    - iDRAC
-    - IT infrastructure
-    - power management
-    - remote access
-    - server management
+
+- Dell servers
+- iDRAC
+- IT infrastructure
+- power management
+- remote access
+- server management
+
 draft: false
+
 ---
 
 How to restart/power off from idrac terminal

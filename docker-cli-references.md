@@ -2,13 +2,14 @@
 title: Docker Commands Reference
 date: 2019-10-08
 slug: docker-reference
+draft: false
 ---
 
 | Command | Description |
 | :----: | :----: |
 | start | Start Container |
 | stop | Stops Container|
-| restart | Restart Container
+| restart | Restart Container |
 | kill | Kill Container |
 | attach | Attach terminal to running container |
 | exec | Excutes command within a running container |

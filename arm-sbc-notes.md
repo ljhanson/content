@@ -2,13 +2,17 @@
 title: ARM SBC Notes
 date: "2019-09-13"
 author: L.J. Hanson
+draft: false
 tags:
+
 - arm
 - sbc
 - notes
 - Fedora
 - docker
+
 slug: arm-sbc-notes
+
 ---
 
 ```bash

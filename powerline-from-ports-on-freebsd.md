@@ -3,11 +3,14 @@ title: Powerline from ports on FreeBSD
 date: 2017-02-02
 author: L.J. Hanson
 tags:
+
 - Python
 - FreeBSD
 - tmux
 - bash
+
 slug: powerline-from-ports-on-freebsd
+draft: false
 ---
 
 In your .profile add the following:

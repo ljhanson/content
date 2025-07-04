@@ -3,11 +3,14 @@ title: Ubuntu unattended upgrades
 date: 2021-01-21
 category: Linux
 tags:
+
 - ubuntu
 - linux
+
 slug: ubuntu-unattended-upgradws
 author: L.J. Hanson
 summary: Unattended upgrades for Ubuntu
+draft: false
 ---
 
 How to setup a Ubuntu install to do unattended upgrades.
