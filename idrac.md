@@ -16,6 +16,7 @@ categories:
     - power management
     - remote access
     - server management
+draft: false
 ---
 
 How to restart/power off from idrac terminal
