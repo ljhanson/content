@@ -7,8 +7,7 @@ tags:
   - blog
   - linux
   - notes
-  - python
-  - Splunk
+  - Python
 categories:
   - best practices
   - components
@@ -93,7 +92,7 @@ categories:
 
 | Unit | Abbreviation |
 | :--- | :--- |
-| seconds | s|
+| seconds | s |
 | minutes | m |
 | hours | h |
 | days | d |
