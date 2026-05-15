@@ -3,6 +3,23 @@ title: Splunk Notes
 slug: splunk-notes
 date: 2019-11-08
 draft: false
+tags:
+  - blog
+  - linux
+  - notes
+  - python
+  - Splunk
+categories:
+  - best practices
+  - components
+  - dashboards
+  - data analysis
+  - data visualization
+  - IT operations
+  - log management
+  - search language
+  - Splunk
+  - user roles.
 ---
 
 ## Splunk Components
@@ -193,5 +210,5 @@ draft: false
     - only done by admin
   - Use window for flexible start
 - Managed via settings
-- Embedded reports are viewable by ##ANYONE## who can access the webpage.
+- Embedded reports are viewable by **ANYONE** who can access the webpage.
 - Alerts are continuously running searches
